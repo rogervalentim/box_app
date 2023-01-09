@@ -1,7 +1,7 @@
 .hero_banner {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .home-container-title h1 {
@@ -28,11 +28,10 @@
 
 .home-container-sponsors {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 120px;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .home-container-sponsors img {
     padding: 20px;
-
 }
