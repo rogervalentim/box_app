@@ -1,0 +1,38 @@
+.hero_banner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.home-container-title h1 {
+    font-size: 68px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.home-container-title button {
+    width: 150px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.home-container-image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.home-container-sponsors {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 120px;
+}
+
+.home-container-sponsors img {
+    padding: 20px;
+
+}
