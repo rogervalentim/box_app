@@ -1,4 +1,4 @@
-<h1 align="center">🥊 Box Gym</h1>
+<h1 align="center">🥊 Boxing Gym</h1>
 
 <div align="center">
 <img src=".github/box-gym-frontend.png" />

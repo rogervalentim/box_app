@@ -15,7 +15,18 @@
   --bg-body: #E5E5E5;
 }
 
+
 ::-webkit-scrollbar {
-  display: none;
+  width: 10px;
+  height: 10px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
