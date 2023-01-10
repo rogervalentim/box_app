@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import { Home, About, History } from './container';
+import { Home, About, History, Contact } from './container';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Home />
       <About />
       <History />
+      <Contact />
     </div>
   );
 }

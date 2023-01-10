@@ -44,7 +44,7 @@ const trainings = [
 
 const History = () => {
   return (
-    <section className="history">
+    <section className="history" id="history">
       <h1>Create your History</h1>
       <div className="history">
         <ul className="history-container">

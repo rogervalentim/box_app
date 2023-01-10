@@ -8,7 +8,7 @@ import './Home.css';
 const Home = () => {
   return (
     <>
-    <section className="hero_banner">
+    <section className="hero_banner" id="home">
         <div className="home-container-title">
             <h1>
                 COME ON <br></br>
@@ -22,9 +22,9 @@ const Home = () => {
         </div>
     </section>
         <div className="home-container-sponsors">
-            <img src={Nike} alt="logo of Nike" />
-            <img src={Adidas} alt="logo of Adidas" />
-            <img src={UnderArmour} alt="logo of Monster energy" />
+            <img src={Nike}  alt="logo of Nike" />
+            <img src={Adidas}   alt="logo of Adidas" />
+            <img src={UnderArmour}   alt="logo of Monster energy" />
         </div>
         </>
   )
