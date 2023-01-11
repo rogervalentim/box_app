@@ -15,7 +15,7 @@
 .app__navbar-logo h1 {
   color: var(--primary-color);
   font-weight: 700;
-  font-size: 42px;
+  font-size: 32px;
 }
 
 a {

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
 
-
 import "./Navbar.css";
 
 const Navbar = () => {

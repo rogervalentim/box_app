@@ -14,8 +14,11 @@
 }
 
 .history img {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border-radius: 10px;
-  margin-left: 20px;
+  margin-left: 50px;
+  object-fit: cover;
 }
+
+

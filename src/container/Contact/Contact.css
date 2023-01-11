@@ -91,15 +91,13 @@
   
   .contact-me-btn:hover {
     transition-duration: 0.1s;
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
-    background-color: var(--bg-color);
+    background: var(--button-hover);
     font-weight: 600;
   }
   
   .contact-image {
     margin-left: 20px;
-    height: 400px;
+    height: 500px;
     width: 500px;
     border-radius: 15px;
   }
@@ -118,6 +116,7 @@
     .contact-image {
       width: 330px;
       margin-left: 20px;
+      margin-top: 20px;
     }
   
     .contact-me-btn {

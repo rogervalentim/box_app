@@ -5,10 +5,10 @@ const Trainings = ({name, description, image}) => {
   return (
     <li className="trainings">
     <div className="trainings-container">
-      <h5 className="name">{name}</h5>
-      <p>{description}</p>
-    </div>
+      <h4 className="name">{name}</h4>
     <img alt={`${image}`} src={image} />
+    </div>
+      <p>{description}</p>
   </li>
   )
 }
