@@ -1,7 +1,6 @@
 import React from "react";
 import "./History.css";
 
-import { Swiper, SwiperSlide } from "swiper/react";
 
 import Fighter from "../../assets/fighter.jpg";
 import Fighter2 from "../../assets/fighter-2.jpg";
@@ -16,32 +15,32 @@ const trainings = [
   {
     name: "Training 1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Lorem ipsum dolor.",
     image: Fighter
   },
   {
     name: "Training 2",
     description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Lorem ipsum dolor.",
     image: Fighter3
   },
   {
     name: "Training 3",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Lorem ipsum dolor.",
     image: Fighter2
   },
   {
     name: "Training 4",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Lorem ipsum dolor.",
     image: WomanTrainning
   },
   {
     name: "Training 5",
     image: Victory,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "Lorem ipsum dolor."
   }
 ];
 
@@ -50,11 +49,7 @@ const History = () => {
     <section className="history" id="history">
       <h1>Create your History</h1>
       <div className="history">
-          <Swiper 
-          loop 
-          spaceBetween={10}
-          slidesPerView={3}
-          >
+          
         <ul className="history-container">
           {trainings.map((item, index) => (
             <Trainings
@@ -65,7 +60,6 @@ const History = () => {
               />
               ))}
         </ul>
-          </Swiper>
       </div>
     </section>
   );
