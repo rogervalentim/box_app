@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import { Home, About, History, Contact } from './container';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <About />
       <History />
       <Contact />
+      <Footer />
     </div>
   );
 }

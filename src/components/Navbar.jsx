@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 import "./Navbar.css";
 
@@ -28,9 +29,15 @@ const Navbar = () => {
       </ul>
       <div className="app__navbar-login">
         <a href="#">
-        Login /Register
+          <BsFacebook color="#000" fontSize={20} />
         </a>
-           </div>
+        <a href="#">
+          <BsInstagram color="#000" fontSize={20} />
+        </a>
+        <a href="#">
+          <BsTwitter color="#000" fontSize={20} />
+        </a>
+      </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           color="#000"
@@ -66,10 +73,16 @@ const Navbar = () => {
                   Contact
                 </a>
               </li>
-              <li className="link-navbar">
-               <a href="#">
-                Login /Register
-               </a>
+              <li className="icons">
+                <a href="#">
+                  <BsFacebook color="#000" fontSize={20} />
+                </a>
+                <a href="#">
+                  <BsInstagram color="#000" fontSize={20} />
+                </a>
+                <a href="#">
+                  <BsTwitter color="#000" fontSize={20} />
+                </a>
               </li>
             </ul>
           </div>
