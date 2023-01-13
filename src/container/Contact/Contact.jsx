@@ -3,6 +3,8 @@ import { useForm } from "react-hook-form";
 import ImageContact from "../../assets/contact.jpg";
 import "./Contact.css";
 
+import { motion } from "framer-motion";
+
 function Contato() {
   const {
     register,
@@ -20,8 +22,11 @@ function Contato() {
   return (
     <>
       <section className="contact" id="contact">
-        <section className="contact-me" id="contact">
-          <h1 className="contact-me-title">Subscribe</h1>
+        <motion.div 
+        className="contact-me" id="contact"
+        
+        >
+          <h1 className="contact-me-title">Subscribe for fight with us</h1>
           <form
             className=""
             target="_blank"
@@ -86,7 +91,7 @@ function Contato() {
               </button>
             </div>
           </form>
-        </section>
+        </motion.div>
         <div className="contact-container">
           <img className="contact-image" src={ImageContact} />
         </div>
