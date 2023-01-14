@@ -4,12 +4,11 @@
 <img src=".github/box-gym-1.png" />
 </div>
 
-<!-- <div align="center">
-<a href="https://gym-app-mocha.vercel.app/" target="_blank">clique para visitar o projeto</a>
-</div> -->
+<div align="center">
+<a href="https://boxing-app-two.vercel.app/" target="_blank">👁️Clique aqui para acessar o projeto !</a>
+</div>
 
-
-<h1>Tecnologias utilizadas</h1>
+<h1>💼 Tecnologias utilizadas</h1>
 <p>Para o desenvolvimento deste site utilizei as seguintes tecnologias:</p>
 <ul>
 <li>React</li>
