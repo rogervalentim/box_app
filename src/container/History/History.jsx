@@ -6,6 +6,8 @@ import Fighter2 from "../../assets/fighter-2.jpg";
 import Fighter3 from "../../assets/fighter-3.jpg";
 import WomanTrainning from "../../assets/woman-trainning.jpg";
 import Victory from "../../assets/victory.jpg";
+
+import Video1 from "../../assets/video-1.mp4";
 import Trainings from "./Trainings";
 
 import { motion } from "framer-motion";
@@ -30,7 +32,7 @@ const trainings = [
   {
     name: "Training 5",
     image: Victory
-  }
+  },
 ];
 
 const History = () => {

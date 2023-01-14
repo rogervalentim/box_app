@@ -5,40 +5,38 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer>
-      <div className="app__navbar-logo">
         <h1>Box Gym</h1>
-      </div>
       <ul>
         <li>
-          <a href="#">PRIVACY</a>
+          <a href="#">Privacy</a>
         </li>
         <li>
-          <a href="#">COOKIES</a>
+          <a href="#">Cookies</a>
         </li>
         <li>
-          <a href="#">HELP</a>
+          <a href="#">Help</a>
         </li>
       </ul>
       <ul>
         <li>
-          <a href="#">TERMS</a>
+          <a href="#">Terms</a>
         </li>
         <li>
-          <a href="#">EMAIL</a>
+          <a href="#">Email</a>
         </li>
         <li>
-          <a href="#">SEARCH</a>
+          <a href="#">Search</a>
         </li>
       </ul>
       <ul>
         <li>
-          <a href="#">HISTORY</a>
+          <a href="#">History</a>
         </li>
         <li>
-          <a href="#">FORUM</a>
+          <a href="#">Forum</a>
         </li>
         <li>
-          <a href="#">STORE</a>
+          <a href="#">Store</a>
         </li>
       </ul>
       <div className="icons">

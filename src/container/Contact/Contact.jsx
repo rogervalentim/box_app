@@ -24,7 +24,14 @@ function Contato() {
       <section className="contact" id="contact">
         <motion.div 
         className="contact-me" id="contact"
-        
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.5 }}
+        variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, x: 0 }
+        }}
         >
           <h1 className="contact-me-title">Subscribe for fight with us</h1>
           <form
@@ -92,9 +99,19 @@ function Contato() {
             </div>
           </form>
         </motion.div>
-        <div className="contact-container">
+        <motion.div 
+        className="contact-container"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ delay: 0.2, duration: 0.5 }}
+        variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, x: 0 }
+        }}
+        >
           <img className="contact-image" src={ImageContact} />
-        </div>
+        </motion.div>
       </section>
     </>
   );
